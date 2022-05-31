@@ -53,6 +53,7 @@ module.exports = {
 
     pkg.devDependencies[this.locals(this.options).addonName] = '^0.0.0';
     pkg.devDependencies['@embroider/test-setup'] = '^1.0.0';
+    pkg.devDependencies['ember-disable-prototype-extensions'] = '^1.0.0';
     pkg.devDependencies['ember-source-channel-url'] = '^3.0.0';
     pkg.devDependencies['ember-try'] = '^2.0.0';
 
